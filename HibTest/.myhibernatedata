@@ -1,0 +1,22 @@
+#
+#Thu Nov 27 14:47:35 CST 2008
+genBasicCompId=false
+sessionFactoryName=com.birght.comm.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=native
+libInstallFolder=/WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/HibTest/hibernate.reveng.xml
+configFile=/HibTest/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

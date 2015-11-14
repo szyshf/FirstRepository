@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="TBL_QX" schema="dbo" catalog="zf" class="QXModel">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="TBL_JD" schema="dbo" catalog="zf" class="JDModel">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="employee" schema="dbo" catalog="zf"
+		class="com.birght.hibernate.entity.EmployeeModel">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="project" schema="dbo" catalog="zf"
+		class="com.birght.hibernate.entity.ProjectModel">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="TBL_FWXX" schema="dbo" catalog="zf" class="com.birght.hibernate.entity.FWXXModel"></table>
+</hibernate-reverse-engineering>

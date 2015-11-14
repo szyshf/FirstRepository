@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+<service>
+  <name> CreditCard</name>
+  <namespace>www.szyshf.vicp.net/CreditCard</namespace>
+  <serviceClass>
+      com.bright.estore.service.biz.IProcessCredit
+  </serviceClass>
+  <implementationClass>
+      com.bright.estore.service.biz.impl.ProcessCreditCardImpl
+  </implementationClass>
+</service>
+</beans>
